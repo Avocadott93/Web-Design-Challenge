@@ -59,36 +59,46 @@
         
       </div>
   </nav>
-  <br>
+
 
   <!--JUMBOTRON-->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Welcome To Weather Analysis Visualization</h1><br>
-      <p class="lead"><p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
+  <!--Make the first box for text-->
+  <div class="row">
+  <div class="col-md-6">
+          <div class="box">
+        
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Welcome To Weather Analysis Visualization</h1><br>
+             <p class="lead"><p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
             To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
             After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:</br>
             <p>Temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
           </p><br>
           <p class ="lead">To see each visualization, you can choose each of them from the Plots dropdown button.</p>
+       </div>
     </div>
+  </div>
 </div>
-
 <!--CONTAINER-->
+
+<div class="col-md-6">
+  <div class="box">
+    
 <div class="container">
   <div id="PlotCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
+          <div class="carousel-item active">x
+          <img src="Resources/assets/images/Fig1.png" class="d-block w-65" alt="Max Temperature Graph">
+            </div>
           <div class="carousel-item active">
-          <img src="Resources/assets/images/Latitude_vs_max_temp.png" class="d-block w-65" alt="Max Temperature Graph">
-          </div>
-          <div class="carousel-item">
-          <img src="Resources/assets/images/Latitude_vs_humidity.png" class="d-block w-65" alt="Humidity Graph">
-          </div>
-          <div class="carousel-item">
-          <img src="Resources/assets/images/Latitude_vs_cloudiness.png" class="d-block w-65" alt="Cloudiness Graph">
-          </div>
-          <div class="carousel-item">
-              <img src="Resources/assets/images/Latitude_vs_wind.png" class="d-block w-65" alt="Wind Speed Graph">
+          <img src="Resources/assets/images/Fig2.png" class="d-block w-65" alt="Humidity Graph">
+             </div>
+          <div class="carousel-item active">
+          <img src="Resources/assets/images/Fig3.png" class="d-block w-65" alt="Cloudiness Graph">
+             </div>
+          <div class="carousel-item active">
+          <img src="Resources/assets/images/Fig4.png" class="d-block w-65" alt="Wind Speed Graph">
           </div>
       </div>
       <a class="carousel-control-prev" href="#PlotCarousel" role="button" data-slide="prev">
@@ -99,16 +109,19 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
       </a>
+     </div>
+    </div>
   </div>
-</div>
+</body>
 
+<!--Create footer-->
 <footer class="footer">
   <div class="container">
     <a href="#" target="_blank">
       <i class="fab fa-github fa-2x"></i>
     </a>
     
-    <a href="mailto:ruddy.simonpour@gmail.com">
+    <a href="mailto:tinahxm15@gmail.com">
       <i class="fas fa-at fa-2x"></i>
     </a>
     <p class="text text-center">
